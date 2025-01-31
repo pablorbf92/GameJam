@@ -205,6 +205,10 @@ a.courantlast{
 	border-right: none;
 }
 
+a.courant{
+	background-color: #ed68c4;
+}
+
 article.decalage{
 	margin-left: 125px;
 	}
