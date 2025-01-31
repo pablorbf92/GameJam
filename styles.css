@@ -1,0 +1,207 @@
+body{
+	background-color: rgb(48, 40, 66);
+	background-image:url('images/background_pot_vide.png');
+	background-size: contain;
+
+	
+}
+
+header >nav >img {
+	display: inline;
+	position: fixed;
+	z-index: 11;
+	right:0;
+	top:0;
+	padding-top: 10px;
+}
+header > nav > ul {
+	display:block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#f39ad8;
+	top:0;
+	width: 100%;
+	outline: 0px;
+	position : fixed;
+	box-shadow: 0px 5px 5px grey;
+	z-index:10;
+	left:0;
+}
+
+header >nav > ul > li > a{
+	display: block;
+   color: white;
+   padding: 15px 25px;
+   text-decoration: none;
+   text-align: center;
+   font-family: OCR A Std, monospace;
+   width:100px;
+   height:30px;
+   overflow: hidden;
+   position : relative;
+   transition : 1s width, 2s height;
+   border-right:2px solid ;
+   border-right-color: white; 
+   position : relative;
+   z-index: 0;
+   
+	}
+header > nav > ul > li{
+   float: left;
+   overflow:hidden;
+
+	}
+header >nav > ul > li  > a:hover{
+	background-color: #ed68c4;
+	overflow = hidden;
+	width:125px;
+   height:50px;
+   
+
+}
+
+
+
+a.last{
+	border-right: none;
+}
+
+body > header > h1 {
+	display: block;
+	padding : 20px;
+	font-family: OCR A Std, monospace;
+	color: white;
+	position : relative;
+	z-index: 0;
+	width: 100%;
+	margin-top: 75px;
+	text-align :center;
+}
+
+#alligne{
+	display: flex;
+}
+
+img.place1{
+	padding-left: 200px;
+	width:125px;
+   height:125px;
+
+	}
+h2.place2{
+	padding-bottom: 100px;
+	text-align:center;
+	width: 100%;
+	}
+body > main >  section > article >  {
+	display:block;
+	column-width:50%;
+}
+h2.titre{
+	display: block;
+	margin-top:150px;
+	background-color:#f39ad8;
+	border-radius: 15px 40px;
+	width:400px;
+	height: 75px;
+	text-align:center;
+	color: white;
+	font-family: OCR A Std, monospace;
+	padding-top:15px;
+}
+h2{
+	display: block;
+	background-color:#f39ad8;
+	border-radius: 15px 40px;
+	width:400px;
+	height: 75px;
+	text-align:center;
+	color: white;
+	font-family: OCR A Std, monospace;
+	padding-top:15px;
+}
+p{
+	color:white;
+	font-family:OCR A Std, monospace;
+	background-color: rgb(243, 154, 216,0);
+	border-radius: 15px 40px;
+	}
+h3{
+	color: pink ;
+	font-family:OCR A Std, monospace;
+}
+
+#design{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}	
+#lien{
+	background-color:rgb(243, 154, 216,0.7);
+	padding-left: 50px;
+	margin-left: 50px;
+	margin-right: 400px;
+	border-radius: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 10px;
+	}
+
+a.suppdeco{
+	text-decoration:none;
+	color:violet;
+	}
+footer{
+	background-color:#413d54; 
+	color: white;	
+	height: 100%;
+	width: 100%;
+	padding:5px;
+	left:0;
+	bottom:0;
+	display: flex;
+	
+	}
+#fondrose{
+	background-color:#f39ad8; 
+	padding:10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px grey;	
+}
+
+figcaption{
+	color:white;
+}
+
+h3.pos1{
+	margin-left:610px;
+	}
+h3.pos2{
+	margin-left:550px;
+}
+h3.pos3{
+	margin-left:625px;
+}
+p.taille{
+	width: 500px;
+}
+
+h2:hover+p{
+	
+}
+
+p.h2p{
+	width: 
+	}
+a.courantlast{
+	background-color: #ed68c4;
+	border-right: none;
+}
+
+a.courant{
+	background-color: #ed68c4;
+}
+
+	
