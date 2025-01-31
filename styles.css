@@ -151,7 +151,7 @@ h3{
 
 a.suppdeco{
 	text-decoration:none;
-	color:violet;
+	color: #9220a2 ;
 	}
 footer{
 	background-color:#413d54; 
@@ -172,7 +172,15 @@ footer{
 }
 
 figcaption{
+	background-size:auto;
 	color:white;
+	font-family: OCR A Std, monospace;
+	background-color : #e1a8e8 ;
+	border-radius: 10px;
+	width:100%;
+	text-align: center;
+
+	
 }
 
 h3.pos1{
@@ -185,23 +193,22 @@ h3.pos3{
 	margin-left:625px;
 }
 p.taille{
+	background-size:auto;
 	width: 500px;
+	height:100%;
+	background-color:rgb(243, 154, 216,0.7);
+	padding:20px;
 }
 
-h2:hover+p{
-	
-}
-
-p.h2p{
-	width: 
-	}
 a.courantlast{
 	background-color: #ed68c4;
 	border-right: none;
 }
 
-a.courant{
-	background-color: #ed68c4;
-}
+article.decalage{
+	margin-left: 125px;
+	}
+
+
 
 	
